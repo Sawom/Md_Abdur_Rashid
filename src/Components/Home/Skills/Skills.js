@@ -2,9 +2,9 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className='container mt-8 mx-auto' >
-            {/*  */}
-            <div className="hero shadow-2xl px-3">
+        <div className=' shadow-2xl mt-8 container mx-auto' id='skill' >
+            <p className='text-center font-bold text-2xl' > Skills </p>
+            <div className="hero  px-3">
                 <div className="hero-content flex-col lg:flex-row md:flex-row">
                     {/* 1st */}
                     <div style={{width: '50%'}} >

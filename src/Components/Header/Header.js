@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Header.css';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     return (
@@ -14,8 +14,11 @@ const Header = () => {
                         </label>
                         {/* responsive menu part */}
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li  > <Link to='/home' > <span className='linkStyle' >About</span> </Link> </li>
-                            <li> <Link> <span className='linkStyle' >Item 1</span> </Link> </li>
+                            <li> <HashLink to='#about' smooth > <span className='linkStyle' > About </span>  </HashLink> </li>
+                            <li> <HashLink to='#education' smooth > <span className='linkStyle' > Education </span>  </HashLink> </li>
+                            <li> <HashLink to='#skill' smooth > <span className='linkStyle' > Skills </span>  </HashLink> </li>
+                            <li> <HashLink to='#todo' smooth > <span className='linkStyle' > Service </span>  </HashLink> </li>
+                            <li> <HashLink to='#project' smooth > <span className='linkStyle' > Project </span>  </HashLink> </li>
                         </ul>
                         </div>
                         <p className=" normal-case font-bold text-2xl">Md. Abdur Rashid</p>
@@ -23,14 +26,14 @@ const Header = () => {
                     {/* 2nd  */}
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
-                            <li><Link to='/home' > <span className='linkStyle' >About</span> </Link></li>
-                            <li><Link> <span className='linkStyle' >Item 1</span> </Link></li>
+                            <li> <HashLink to='#about' smooth > <span className='linkStyle' > About </span>  </HashLink> </li>
+                            <li> <HashLink to='#education' smooth > <span className='linkStyle' > Education </span>  </HashLink> </li>
+                            <li> <HashLink to='#skill' smooth > <span className='linkStyle' > Skills </span>  </HashLink> </li>
+                            <li> <HashLink to='#todo' smooth > <span className='linkStyle' > Service </span>  </HashLink> </li>
+                            <li> <HashLink to='#project' smooth > <span className='linkStyle' > Project </span>  </HashLink> </li>
                         </ul>
                     </div>
-
-                </div>
-                    
-                
+                </div>      
             
         </div>
     );

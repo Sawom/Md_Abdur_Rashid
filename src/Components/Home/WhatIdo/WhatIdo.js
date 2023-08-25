@@ -2,12 +2,13 @@ import React from 'react';
 
 const WhatIdo = () => {
     return (
-        <div className='mt-10'>
+        <div className='mt-10 container mx-auto' id='todo' >
+            <p className='text-center font-bold text-2xl' > My Services </p>
             <div className='grid lg:grid-cols-3 gap-8  md:grid-cols-3' >
                 {/* 1st */}
                 <div className="card w-90 bg-base-100 ">
                     <div className="card-body">
-                        <h2 className="card-title">Web Design</h2>
+                        <h2 className="card-title">Web UI Design</h2>
                         
                     </div>
                 </div>

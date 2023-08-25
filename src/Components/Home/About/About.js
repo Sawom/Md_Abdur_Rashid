@@ -4,7 +4,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className='container mx-auto' >
+        <div className='container mx-auto' id='about' >
             {/* from daisy ui */}
            <div className="hero px-3 shadow-xl bg-base-100">
                 <div className="hero-content flex-col lg:flex-row md:flex-row">
@@ -15,7 +15,7 @@ const About = () => {
                     <h1 className="text-2xl font-bold">Md. Abdur Rashid</h1>
                     <p className="p-4 pStyle">
                         Motivated to use my skills in web application development. Proficient in MongoDB, Express.js,React, and Node.js, seeking an opportunity to contribute innovative coding skills and collaborative expertise to a development team.
-                        </p>
+                    </p>
                     <button className="btn btn-primary">Download My Resume </button>
                     </div>
                 </div>
