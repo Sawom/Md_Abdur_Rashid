@@ -6,9 +6,9 @@ const About = () => {
     return (
         <div className='container mx-auto' >
             {/* from daisy ui */}
-           <div className="hero  bg-base-100">
+           <div className="hero px-3 shadow-xl bg-base-100">
                 <div className="hero-content flex-col lg:flex-row md:flex-row">
-                    <img src={Me} className="max-w-sm rounded-lg shadow-xl" />
+                    <img src={Me} className="max-w-sm rounded-lg " />
                     <div>
                     <h1 className="text-2xl font-bold">Md. Abdur Rashid</h1>
                     <p className="py-6 pStyle">
