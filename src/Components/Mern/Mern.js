@@ -8,8 +8,8 @@ import mern6 from '../../images/mern/arsTravels/mern6.png';
 
 const Mern = () => {
     return (
-        <div className='mx-auto' >
-            {/* element */}
+        <div className='mx-auto container' >
+                {/* element */}
                 <div className='grid lg:grid-cols-2 gap-8  md:grid-cols-2' >
                     {/* 1st part */}
                     <div >
