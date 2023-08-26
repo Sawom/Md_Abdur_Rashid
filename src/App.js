@@ -2,12 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home/Home';
 import Mern from './Components/Mern/Mern';
 import ReactProject from './Components/ReactProject/ReactProject';
 import PSDtoHTML from './Components/PSDtoHTML/PSDtoHTML';
 import Academic from './Components/Academic/Academic';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
