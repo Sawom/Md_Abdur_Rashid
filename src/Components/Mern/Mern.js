@@ -7,10 +7,10 @@ const Mern = () => {
     return (
         <div className='mx-auto' >
             {/* element */}
-                <div className='grid  lg:grid-cols-2 gap-8  md:grid-cols-2' >
+                <div className='grid lg:grid-cols-2 gap-8  md:grid-cols-2' >
                     {/* 1st part */}
                     <div >
-                        <div className="card bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-2xl">
                             {/* figure er jaygay carousel use korchi */}
                             <figure> 
                                 <div className="carousel w-full">
@@ -40,11 +40,17 @@ const Mern = () => {
                                     </div> 
                                 </div>
                             </figure>
-                            <div className="card-body">
+                            <div className="card-body ">
                                 <h2 className="card-title">ARS-Travels</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <p className='pStyle' >ARS-Travels is a full stack MERN Application.
+                                    Dynamic router implemented.
+                                    User can book a tour package, cancel or change
+                                    login, logout, confirm password reset , email verification added.
+                                </p>
                                 <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Buy Now</button>
+                                    <a href="https://toursite-44305.web.app/"  target="_blank" >
+                                        <button className="btn btn-active btn-neutral"> View</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +59,7 @@ const Mern = () => {
                     <div  >
                         <div className="card  bg-base-100 shadow-xl">
                             {/* figure er jaygay carousel use korchi */}
-                            <figure> 
+                            <figure > 
                                 <div className="carousel w-full">
                                     {/* 1st slide */}
                                     <div id="slide4" className="carousel-item relative w-full">
