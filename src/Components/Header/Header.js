@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     return (
-        <div className=' bg-base-200 ' >
+         <div className=' bg-base-200 ' >
                      {/* 1st */}
                 <div className='navbar container mx-auto' >
                     <div className="navbar-start">
@@ -34,7 +34,6 @@ const Header = () => {
                         </ul>
                     </div>
                 </div>      
-            
         </div>
     );
 };
