@@ -19,6 +19,7 @@ const Header = () => {
                             <li> <HashLink to='#skill' smooth > <span className='linkStyle' > Skills </span>  </HashLink> </li>
                             <li> <HashLink to='#todo' smooth > <span className='linkStyle' > Service </span>  </HashLink> </li>
                             <li> <HashLink to='#project' smooth > <span className='linkStyle' > Project </span>  </HashLink> </li>
+                            <li> <HashLink to='#ext' smooth > <span className='linkStyle' > Extracurricular </span>  </HashLink> </li>
                         </ul>
                         </div>
                         <p className=" normal-case font-bold text-2xl">Md. Abdur Rashid</p>
@@ -31,6 +32,7 @@ const Header = () => {
                             <li> <HashLink to='#skill' smooth > <span className='linkStyle' > Skills </span>  </HashLink> </li>
                             <li> <HashLink to='#todo' smooth > <span className='linkStyle' > Service </span>  </HashLink> </li>
                             <li> <HashLink to='#project' smooth > <span className='linkStyle' > Project </span>  </HashLink> </li>
+                            <li> <HashLink to='#ext' smooth > <span className='linkStyle' > Extracurricular </span>  </HashLink> </li>
                         </ul>
                     </div>
                 </div>      
