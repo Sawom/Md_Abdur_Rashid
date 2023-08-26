@@ -1,28 +1,23 @@
 import React from 'react';
+
 import psd1 from '../../images/psd/psd1.png';
 import psd2 from '../../images/psd/psd2.png';
 import psd3 from '../../images/psd/psd3.png';
-
 import psd5 from '../../images/psd/psd5.png';
 import psd4 from '../../images/psd/psd4.png';
 import psd6 from '../../images/psd/psd6.png';
-
 import psd7 from '../../images/psd/psd7.png';
 import psd8 from '../../images/psd/psd8.png';
 import psd9 from '../../images/psd/psd9.png';
-
 import psd10 from '../../images/psd/psd10.png';
 import psd11 from '../../images/psd/psd11.png';
 import psd12 from '../../images/psd/psd12.png';
-
 import psd13 from '../../images/psd/psd13.png';
 import psd14 from '../../images/psd/psd14.png';
 import psd15 from '../../images/psd/psd15.png';
-
 import psd16 from '../../images/psd/psd16.png';
 import psd17 from '../../images/psd/psd17.png';
 import psd18 from '../../images/psd/psd18.png';
-
 import psd19 from '../../images/psd/psd19.png';
 import psd20 from '../../images/psd/psd20.png';
 
