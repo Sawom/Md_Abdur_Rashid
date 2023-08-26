@@ -6,7 +6,6 @@ import react4 from '../../images/react/react4.png';
 import react5 from '../../images/react/react5.png';
 import react6 from '../../images/react/react6.png';
 
-
 const ReactProject = () => {
     return (
         <div className='mx-auto container' >
