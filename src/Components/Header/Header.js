@@ -4,9 +4,9 @@ import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     return (
-         <div className=' bg-base-200 ' >
-                     {/* 1st */}
+         <div className=' bg-base-200 ' > 
                 <div className='navbar container mx-auto' >
+                    {/* 1st */}
                     <div className="navbar-start">
                         <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">

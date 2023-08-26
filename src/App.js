@@ -17,7 +17,7 @@ function App() {
             <Routes>
               {/* nested route */}
               <Route path='/' element={ <Home></Home> } >
-                  <Route path='mern' element={ <Mern></Mern> } ></Route> 
+                  <Route path='' element={ <Mern></Mern> } ></Route> 
                   <Route path='reactjs' element={ <ReactProject></ReactProject> } ></Route>
                   <Route path='psd' element={ <PSDtoHTML></PSDtoHTML> } ></Route>
                   <Route path='academic' element={ <Academic></Academic> } ></Route>

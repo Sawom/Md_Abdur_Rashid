@@ -6,7 +6,7 @@ const Education = () => {
             <p className='text-center font-bold text-2xl' > Educational Background </p>
             <div className='grid lg:grid-cols-3 gap-8  md:grid-cols-3' >
                 {/* 1st */}
-                <div className="card w-90 bg-base-100 ">
+                <div className="card bg-base-100 ">
                     <div className="card-body">
                         <h2 className="card-title">University of Asia Pacific</h2>
                         <p>Bachelor of Science in Computer Science and Engineering </p> 
@@ -15,7 +15,7 @@ const Education = () => {
                     </div>
                 </div>
                 {/* 2nd */}
-                <div className="card w-90 bg-base-100 ">
+                <div className="card bg-base-100 ">
                     <div className="card-body">
                         <h2 className="card-title">Dhaka College</h2>
                         <p> Higher Secondary School Certificate </p>
@@ -25,7 +25,7 @@ const Education = () => {
                     </div>
                 </div>
                 {/* 3rd */}
-                <div className="card w-90 bg-base-100 ">
+                <div className="card bg-base-100 ">
                     <div className="card-body">
                         <h2 className="card-title">Motijheel Model High School and College</h2>
                         <p>Secondary School Certificate</p>
