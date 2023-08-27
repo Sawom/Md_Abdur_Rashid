@@ -10,9 +10,9 @@ const Home = () => {
     return (
         <div className='container mx-auto' >
             <About></About>
+            <WhatIdo></WhatIdo>
             <Education></Education>
             <Skills></Skills>
-            <WhatIdo></WhatIdo>
             <Projects></Projects>
             <Extracurricular></Extracurricular>
         </div>

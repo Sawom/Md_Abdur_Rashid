@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className=' shadow-2xl mt-8 container mx-auto' id='skill' >
+        <div className=' shadow-2xl mt-10 container mx-auto' id='skill' >
             <p className='text-center font-bold text-2xl' > Skills </p>
             <div className="hero  px-3">
                 <div className="hero-content flex-col lg:flex-row md:flex-row">

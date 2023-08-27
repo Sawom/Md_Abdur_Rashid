@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';
 import { HashLink } from 'react-router-hash-link';
+import { FaGithub } from 'react-icons/fa';
+
 
 const Header = () => {
     return (
@@ -34,6 +36,11 @@ const Header = () => {
                             <li> <HashLink to='#project' smooth > <span className='linkStyle' > Project </span>  </HashLink> </li>
                             <li> <HashLink to='#ext' smooth > <span className='linkStyle' > Extracurricular </span>  </HashLink> </li>
                         </ul>
+                    </div>
+                    <div className='navbar-end'>
+                        <a href="https://github.com/Sawom" target="_blank">
+                             <button className='btn btn-ghost ' > <FaGithub/> gitHub</button>
+                        </a>
                     </div>
                 </div>      
         </div>
