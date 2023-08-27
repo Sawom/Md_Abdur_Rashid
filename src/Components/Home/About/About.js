@@ -20,7 +20,7 @@ const About = () => {
                         Motivated to use my skills in web application development. Proficient in MongoDB, Express.js,React, and Node.js, seeking an opportunity to contribute innovative coding skills and collaborative expertise to a development team.
                     </p>
                     <a href="https://drive.google.com/file/d/1BOqyJXLIrHlbN4E5GqkbgsRVEa8ivDqO/view?usp=sharing"  target="_blank">
-                        <button className="btn btn-outline btn-sm border-4 mt-6"> <FaDownload />  Download My Resume </button>
+                        <button className="btn btn-outline btn-sm border-4 mt-6"> <span className='flex px-2'> <FaDownload className='mr-2' /> My Resume </span>  </button>
                     </a>
                     </div>
                 </div>
