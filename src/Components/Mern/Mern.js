@@ -5,6 +5,8 @@ import mern3 from '../../images/mern/arsTravels/mern3.png';
 import mern4 from '../../images/mern/arsTravels/mern4.png';
 import mern5 from '../../images/mern/arsTravels/mern5.png';
 import mern6 from '../../images/mern/arsTravels/mern6.png';
+import { AiOutlineFundView } from 'react-icons/ai';
+
 
 const Mern = () => {
     return (
@@ -47,7 +49,9 @@ const Mern = () => {
                                 <h2 className="card-title">ARS-Travels</h2>
                                 <div className="card-actions justify-end">
                                     <a href="https://toursite-44305.web.app/"  target="_blank" >
-                                        <button className="btn btn-active btn-neutral"> View</button>
+                                        <button className="btn btn-outline btn-sm border-4 mt-6">
+                                            <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                        </button>
                                     </a>
                                 </div>
                             </div>
@@ -90,7 +94,9 @@ const Mern = () => {
                                 {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
                                 <div className="card-actions justify-end">
                                     <a href="https://ecommerceapp-f7c88.web.app/"  target="_blank" >
-                                        <button className="btn btn-active btn-neutral"> View</button>
+                                        <button className="btn btn-outline btn-sm border-4 mt-6">
+                                            <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                        </button>
                                     </a>
                                 </div>
                             </div>

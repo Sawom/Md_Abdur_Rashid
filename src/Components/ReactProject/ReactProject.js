@@ -5,6 +5,8 @@ import react3 from '../../images/react/react3.png';
 import react4 from '../../images/react/react4.png';
 import react5 from '../../images/react/react5.png';
 import react6 from '../../images/react/react6.png';
+import { AiOutlineFundView } from 'react-icons/ai';
+
 
 const ReactProject = () => {
     return (
@@ -17,7 +19,9 @@ const ReactProject = () => {
                         <h2 className="card-title"> Auto Repair Services </h2>
                             <div className="card-actions justify-end">
                                 <a href="https://moduleten-f3434.web.app/"  target="_blank" >
-                                    <button className="btn btn-active btn-neutral"> View</button>
+                                    <button className="btn btn-outline btn-sm border-4 mt-6">
+                                        <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                    </button>
                                 </a>
                             </div>
                     </div>               
@@ -29,7 +33,9 @@ const ReactProject = () => {
                         <h2 className="card-title"> Ema-Jhon </h2>
                             <div className="card-actions justify-end">
                                 <a href="https://webproject-94b72.web.app/"  target="_blank" >
-                                    <button className="btn btn-active btn-neutral"> View</button>
+                                    <button className="btn btn-outline btn-sm border-4 mt-6">
+                                        <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                    </button>
                                 </a>
                             </div>
                     </div>               
@@ -41,7 +47,9 @@ const ReactProject = () => {
                         <h2 className="card-title"> Medi-Care-Medicine-Shop </h2>
                             <div className="card-actions justify-end">
                                 <a href="https://medicinesite.web.app/"  target="_blank" >
-                                    <button className="btn btn-active btn-neutral"> View</button>
+                                    <button className="btn btn-outline btn-sm border-4 mt-6">
+                                        <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                    </button>
                                 </a>
                             </div>
                     </div>               
@@ -53,7 +61,9 @@ const ReactProject = () => {
                         <h2 className="card-title"> EduCare </h2>
                             <div className="card-actions justify-end">
                                 <a href="https://elegant-sunshine-612c50.netlify.app/"  target="_blank" >
-                                    <button className="btn btn-active btn-neutral"> View</button>
+                                    <button className="btn btn-outline btn-sm border-4 mt-6">
+                                        <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                    </button>
                                 </a>
                             </div>
                     </div>               
@@ -65,7 +75,9 @@ const ReactProject = () => {
                         <h2 className="card-title"> Restaurant (SPA) </h2>
                             <div className="card-actions justify-end">
                                 <a href="https://zesty-lollipop-7b38b1.netlify.app/"  target="_blank" >
-                                    <button className="btn btn-active btn-neutral"> View</button>
+                                    <button className="btn btn-outline btn-sm border-4 mt-6">
+                                        <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                    </button>
                                 </a>
                             </div>
                     </div>               
@@ -77,7 +89,9 @@ const ReactProject = () => {
                         <h2 className="card-title"> DECATHLON-Sports-Shop (SPA) </h2>
                             <div className="card-actions justify-end">
                                 <a href="https://endearing-buttercream-ae39c4.netlify.app/"  target="_blank" >
-                                    <button className="btn btn-active btn-neutral"> View</button>
+                                    <button className="btn btn-outline btn-sm border-4 mt-6">
+                                        <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                    </button>
                                 </a>
                             </div>
                     </div>               

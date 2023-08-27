@@ -20,6 +20,8 @@ import psd17 from '../../images/psd/psd17.png';
 import psd18 from '../../images/psd/psd18.png';
 import psd19 from '../../images/psd/psd19.png';
 import psd20 from '../../images/psd/psd20.png';
+import { AiOutlineFundView } from 'react-icons/ai';
+
 
 const PSDtoHTML = () => {
     return (
@@ -62,7 +64,9 @@ const PSDtoHTML = () => {
                                 <h2 className="card-title"> Tea-House </h2>
                                 <div className="card-actions justify-end">
                                     <a href="https://sawom.github.io/Tea-House-ph/"  target="_blank" >
-                                        <button className="btn btn-active btn-neutral"> View</button>
+                                        <button className="btn btn-outline btn-sm border-4 mt-6">
+                                            <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                        </button>
                                     </a>
                                 </div>
                             </div>
@@ -104,7 +108,9 @@ const PSDtoHTML = () => {
                                 <h2 className="card-title">G3-Architects</h2>
                                 <div className="card-actions justify-end">
                                     <a href="https://sawom.github.io/G3-Architects-ph/"  target="_blank" >
-                                        <button className="btn btn-active btn-neutral"> View</button>
+                                        <button className="btn btn-outline btn-sm border-4 mt-6">
+                                            <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                        </button>
                                     </a>
                                 </div>
                             </div>
@@ -146,7 +152,9 @@ const PSDtoHTML = () => {
                                 <h2 className="card-title">Biker-Zone</h2>
                                 <div className="card-actions justify-end">
                                     <a href="https://sawom.github.io/Biker-Zone-ph/"  target="_blank" >
-                                        <button className="btn btn-active btn-neutral"> View</button>
+                                        <button className="btn btn-outline btn-sm border-4 mt-6">
+                                            <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                        </button>
                                     </a>
                                 </div>
                             </div>
@@ -188,7 +196,9 @@ const PSDtoHTML = () => {
                                 <h2 className="card-title">BuildCon</h2>
                                 <div className="card-actions justify-end">
                                     <a href="https://sawom.github.io/BuildCon-ph/"  target="_blank" >
-                                        <button className="btn btn-active btn-neutral"> View</button>
+                                        <button className="btn btn-outline btn-sm border-4 mt-6">
+                                            <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                        </button>
                                     </a>
                                 </div>
                             </div>
@@ -230,7 +240,9 @@ const PSDtoHTML = () => {
                                 <h2 className="card-title">Business-Agency</h2>
                                 <div className="card-actions justify-end">
                                     <a href="https://sawom.github.io/Business-Agency-ph/"  target="_blank" >
-                                        <button className="btn btn-active btn-neutral"> View</button>
+                                        <button className="btn btn-outline btn-sm border-4 mt-6">
+                                            <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                        </button>
                                     </a>
                                 </div>
                             </div>
@@ -272,7 +284,9 @@ const PSDtoHTML = () => {
                                 <h2 className="card-title">Honda-Bazar</h2>
                                 <div className="card-actions justify-end">
                                     <a href="https://sawom.github.io/WDPr8-Honda-Bazar/index.html"  target="_blank" >
-                                        <button className="btn btn-active btn-neutral"> View</button>
+                                        <button className="btn btn-outline btn-sm border-4 mt-6">
+                                            <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                        </button>
                                     </a>
                                 </div>
                             </div>
@@ -307,7 +321,9 @@ const PSDtoHTML = () => {
                                 <h2 className="card-title">Penguin-Fashion</h2>
                                 <div className="card-actions justify-end">
                                     <a href="https://sawom.github.io/WDPr7-Penguin-Fashion/index.html"  target="_blank" >
-                                        <button className="btn btn-active btn-neutral"> View</button>
+                                        <button className="btn btn-outline btn-sm border-4 mt-6">
+                                            <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                        </button>
                                     </a>
                                 </div>
                             </div>

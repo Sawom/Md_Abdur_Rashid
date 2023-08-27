@@ -9,6 +9,7 @@ import ac7 from '../../images/academic/ac7.png';
 import ac8 from '../../images/academic/ac8.png';
 import ac9 from '../../images/academic/ac9.jpg';
 
+
 const Academic = () => {
     return (
         <div>

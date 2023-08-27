@@ -3,8 +3,6 @@ import Me from '../../../images/cvpics.png'
 import './About.css';
 import { FaDownload } from 'react-icons/fa';
 
-
-
 const About = () => {
     return (
         <div className='container mx-auto' id='about' >
