@@ -30,7 +30,7 @@ const PSDtoHTML = () => {
             <div className='grid lg:grid-cols-3 gap-8  md:grid-cols-2' >
                     {/* 1st part */}
                     <div >
-                        <div className="card bg-base-100 shadow-2xl">
+                        <div className="card cardStyle bg-base-100 shadow-2xl">
                             {/* figure er jaygay carousel use korchi */}
                             <figure> 
                                 <div className="carousel w-full">
@@ -74,7 +74,7 @@ const PSDtoHTML = () => {
                     </div>
                     {/* 2nd part*/}
                     <div >
-                        <div className="card  bg-base-100 shadow-2xl">
+                        <div className="card cardStyle bg-base-100 shadow-2xl">
                             {/* figure er jaygay carousel use korchi */}
                             <figure > 
                                 <div className="carousel w-full">
@@ -118,7 +118,7 @@ const PSDtoHTML = () => {
                     </div>
                     {/* 3rd */}
                     <div >
-                        <div className="card  bg-base-100 shadow-2xl">
+                        <div className="card cardStyle bg-base-100 shadow-2xl">
                             {/* figure er jaygay carousel use korchi */}
                             <figure > 
                                 <div className="carousel w-full">
@@ -162,7 +162,7 @@ const PSDtoHTML = () => {
                     </div>
                     {/* 4th */}
                     <div >
-                        <div className="card  bg-base-100 shadow-2xl">
+                        <div className="card cardStyle bg-base-100 shadow-2xl">
                             {/* figure er jaygay carousel use korchi */}
                             <figure > 
                                 <div className="carousel w-full">
@@ -206,7 +206,7 @@ const PSDtoHTML = () => {
                     </div>
                     {/* 5th */}
                     <div >
-                        <div className="card  bg-base-100 shadow-2xl">
+                        <div className="card cardStyle bg-base-100 shadow-2xl">
                             {/* figure er jaygay carousel use korchi */}
                             <figure > 
                                 <div className="carousel w-full">
@@ -250,7 +250,7 @@ const PSDtoHTML = () => {
                     </div>
                     {/* 6th */}
                     <div >
-                        <div className="card  bg-base-100 shadow-2xl">
+                        <div className="card cardStyle bg-base-100 shadow-2xl">
                             {/* figure er jaygay carousel use korchi */}
                             <figure > 
                                 <div className="carousel w-full">
@@ -294,7 +294,7 @@ const PSDtoHTML = () => {
                     </div>
                     {/* 7th */}
                     <div >
-                        <div className="card  bg-base-100 shadow-2xl">
+                        <div className="card cardStyle bg-base-100 shadow-2xl">
                             {/* figure er jaygay carousel use korchi */}
                             <figure > 
                                 <div className="carousel w-full">

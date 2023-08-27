@@ -13,7 +13,7 @@ const ReactProject = () => {
         <div className='mx-auto container' >
             <div className='grid lg:grid-cols-3 gap-8  md:grid-cols-2' >
                 {/* 1st */}
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card cardStyle bg-base-100 shadow-xl">
                     <figure><img src={react1} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title"> Auto Repair Services </h2>
@@ -27,7 +27,7 @@ const ReactProject = () => {
                     </div>               
                 </div>
                 {/* 2nd */}
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card cardStyle bg-base-100 shadow-xl">
                     <figure><img src={react2} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title"> Ema-Jhon </h2>
@@ -41,7 +41,7 @@ const ReactProject = () => {
                     </div>               
                 </div>
                 {/* 3rd */}
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card cardStyle bg-base-100 shadow-xl">
                     <figure><img src={react3} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title"> Medi-Care-Medicine-Shop </h2>
@@ -55,7 +55,7 @@ const ReactProject = () => {
                     </div>               
                 </div>
                 {/* 4th */}
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card cardStyle bg-base-100 shadow-xl">
                     <figure><img src={react4} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title"> EduCare </h2>
@@ -69,7 +69,7 @@ const ReactProject = () => {
                     </div>               
                 </div>
                 {/* 5th */}
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card cardStyle bg-base-100 shadow-xl">
                     <figure><img src={react5} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title"> Restaurant (SPA) </h2>
@@ -83,7 +83,7 @@ const ReactProject = () => {
                     </div>               
                 </div>
                 {/* 6th */}
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card cardStyle bg-base-100 shadow-xl">
                     <figure><img src={react6} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title"> DECATHLON-Sports-Shop (SPA) </h2>

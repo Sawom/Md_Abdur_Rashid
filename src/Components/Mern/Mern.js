@@ -7,7 +7,6 @@ import mern5 from '../../images/mern/arsTravels/mern5.png';
 import mern6 from '../../images/mern/arsTravels/mern6.png';
 import { AiOutlineFundView } from 'react-icons/ai';
 
-
 const Mern = () => {
     return (
         <div className='mx-auto container' >
@@ -15,7 +14,7 @@ const Mern = () => {
                 <div className='grid lg:grid-cols-2 gap-8  md:grid-cols-2' >
                     {/* 1st part */}
                     <div >
-                        <div className="card bg-base-100 shadow-2xl">
+                        <div className="card cardStyle bg-base-100 shadow-2xl">
                             {/* figure er jaygay carousel use korchi */}
                             <figure> 
                                 <div className="carousel w-full">
@@ -59,7 +58,7 @@ const Mern = () => {
                     </div>
                     {/* 2nd part*/}
                     <div  >
-                        <div className="card  bg-base-100 shadow-2xl">
+                        <div className="card cardStyle bg-base-100 shadow-2xl">
                             {/* figure er jaygay carousel use korchi */}
                             <figure > 
                                 <div className="carousel w-full">

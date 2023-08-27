@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import Me from '../../../images/cvpics.png'
 import './About.css';
-import { FaDownload } from 'react-icons/fa';
+import { FaDownload, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+
 
 const About = () => {
     return (
@@ -20,6 +21,17 @@ const About = () => {
                     <a href="https://drive.google.com/file/d/1BOqyJXLIrHlbN4E5GqkbgsRVEa8ivDqO/view?usp=sharing"  target="_blank">
                         <button className="btn btn-outline btn-sm border-4 mt-6"> <span className='flex px-2'> <FaDownload className='mr-2' /> My Resume </span>  </button>
                     </a>
+                    {/* social button */}
+                    <p className='mt-4' >Available for contact</p>
+                    <div >
+                        <a href="https://www.facebook.com/profile.php?id=100008733311858&mibextid=ZbWKwL" target="_blank" >
+                            <button className="btn rounded-full btn-outline mr-4 mt-4" > <FaFacebookF size={15} /> </button>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abdur-rashid-sawom-3379a0262" target="_blank" >
+                            <button className="btn rounded-full btn-outline mr-4 mt-4" > <FaLinkedinIn size={16} /> </button>
+                        </a>
+                    </div>
+                    
                     </div>
                 </div>
             </div> 
