@@ -8,8 +8,9 @@ import './skills.css';
 
 const Skills = () => {
     return (
-        <div className='mt-10 container mx-auto' id='skills'>
+        <div className='mt-10 container mx-auto' id='skill'>
             <p className='text-center font-bold text-2xl' > Skills </p>
+            <p className='pStyle roboto px-3'>I work professionally with mern stack. But other technologies have also been learned from academia.</p>
             <div className='grid lg:grid-cols-3 gap-8  md:grid-cols-3' >
                 {/* 1st */}
                 <div className="card bg-base-100 ">
