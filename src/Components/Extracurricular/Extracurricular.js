@@ -10,7 +10,7 @@ const Extracurricular = () => {
                     <div style={{width: '50%'}} >
                         <p className='text-center font-bold text-xl'>Achievements</p>
                         <div className="overflow-x-auto">
-                            <table className="table">
+                            <table className="table roboto">
                                 <tbody>
                                     {/* row 1 */}
                                     <tr className="hover">
@@ -32,11 +32,11 @@ const Extracurricular = () => {
                             </table>
                         </div>
                     </div>
-                    {/* 2nd table section*/}
+                    {/* 2nd table activities section section*/}
                     <div style={{width: '50%'}} >
                         <p className='text-center font-bold text-xl'>Activities</p>
                         <div className="overflow-x-auto">
-                            <table className="table">
+                            <table className="table roboto">
                                 <tbody>
                                     {/* row 1 */}
                                     <tr className="hover">
