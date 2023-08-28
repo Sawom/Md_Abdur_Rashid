@@ -8,7 +8,7 @@ import Extracurricular from '../../Extracurricular/Extracurricular';
 
 const Home = () => {
     return (
-        <div className='container mx-auto' >
+        <div className='mx-auto' >
             <About></About>
             <WhatIdo></WhatIdo>
             <Education></Education>

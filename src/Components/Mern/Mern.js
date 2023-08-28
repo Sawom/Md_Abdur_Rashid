@@ -9,7 +9,9 @@ import { AiOutlineFundView } from 'react-icons/ai';
 
 const Mern = () => {
     return (
-        <div className='mx-auto container' >
+
+        <div className=''>
+            <div className='mx-auto  container' >
                 {/* element */}
                 <div className='grid lg:grid-cols-2 gap-8  md:grid-cols-2' >
                     {/* 1st part */}
@@ -103,6 +105,7 @@ const Mern = () => {
                     </div>
                     
                 </div> 
+            </div>
         </div>
     );
 };

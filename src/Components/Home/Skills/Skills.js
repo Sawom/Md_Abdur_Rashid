@@ -8,12 +8,13 @@ import './skills.css';
 
 const Skills = () => {
     return (
-        <div className='mt-10 container mx-auto' id='skill'>
-            <p className='text-center font-bold text-2xl' > Skills </p>
+        <div className='servicebackground' >
+            <div className='pt-10 container mx-auto' id='skill'>
+            <p className='text-center font-bold text-2xl' > Skills </p> <br />
             <p className='pStyle roboto px-3'>I work professionally with mern stack. But other technologies have also been learned from academia.</p>
             <div className='grid lg:grid-cols-3 gap-8  md:grid-cols-3' >
                 {/* 1st */}
-                <div className="card bg-base-100 ">
+                <div className="card  ">
                     <div className="card-body">
                         <h2 className="card-title">Front-end</h2>
                         {/* icons */}
@@ -33,7 +34,7 @@ const Skills = () => {
                     </div>
                 </div>
                 {/* 2nd */}
-                <div className="card bg-base-100 ">
+                <div className="card  ">
                     <div className="card-body">
                         <h2 className="card-title">Back-end</h2>
                         {/* icons */}
@@ -51,7 +52,7 @@ const Skills = () => {
                     </div>
                 </div>
                 {/* 3rd */}
-                <div className="card bg-base-100 ">
+                <div className="card  ">
                     <div className="card-body">
                         <h2 className="card-title">Programming Languages</h2>
                         {/* icons */}
@@ -69,6 +70,7 @@ const Skills = () => {
                          {/* icon div end */}
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     );

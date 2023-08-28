@@ -6,13 +6,14 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const About = () => {
     const [text] = useTypewriter({
-        words: [ "'m a Full Stack Web Developer.", "work with MERN stack.", "'m a Web Designer"],
+        words: [ "'m a Full Stack Web Developer.", "work with MERN stack.", "'m a Web Designer."],
         loop: {}
     })
     return (
-        <div className='container mx-auto' id='about' >
+        <div className='servicebackground'>
+            <div className='container  mx-auto' id='about' >
             {/* from daisy ui */}
-           <div className="hero px-3 shadow-xl bg-base-100">
+           <div className="hero px-3 py-3">
                 <div className="hero-content  flex-col lg:flex-row md:flex-row">
                     <div style={{width: '50%'}} >
                         <img alt='my pics' src={Me} className="max-w-full h-auto rounded-lg " />
@@ -46,6 +47,7 @@ const About = () => {
                     </div>
                 </div>
             </div> 
+            </div>
         </div>
     );
 };

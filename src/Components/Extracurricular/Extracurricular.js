@@ -2,7 +2,8 @@ import React from 'react';
 
 const Extracurricular = () => {
     return (
-        <div className=' shadow-2xl mt-10 container mx-auto' id='ext' >
+        <div className='aboutbackground mt-5'>
+            <div className=' pt-10 container mx-auto' id='ext' >
             <p className='text-center font-bold text-2xl' > Extracurricular Activities </p>
             <div className="hero mt-5 px-3">
                 <div className="hero-content flex-col lg:flex-row md:flex-row">
@@ -78,6 +79,7 @@ const Extracurricular = () => {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     );
