@@ -27,7 +27,7 @@ const About = () => {
                         </span>
                         <Cursor></Cursor>
                     </p>
-                    <p className="p-4 pStyle roboto">
+                    <p className="p-4 roboto">
                         Motivated to use my skills in web application development. Proficient in MongoDB, Express.js,React, and Node.js, seeking an opportunity to contribute innovative coding skills and collaborative expertise to a development team.
                     </p>
                     <a href="https://drive.google.com/file/d/1BOqyJXLIrHlbN4E5GqkbgsRVEa8ivDqO/view?usp=sharing"  target="_blank">
