@@ -30,7 +30,7 @@ const About = () => {
                     <p className="p-4 roboto">
                         Motivated to use my skills in web application development. Proficient in MongoDB, Express.js,React, and Node.js, seeking an opportunity to contribute innovative coding skills and collaborative expertise to a development team.
                     </p>
-                    <a href="https://drive.google.com/file/d/1BOqyJXLIrHlbN4E5GqkbgsRVEa8ivDqO/view?usp=sharing"  target="_blank">
+                    <a href="https://drive.google.com/drive/u/0/folders/1EoxHBHte1xHLZ8x0woOnCOlc5tlqb2Tr"  target="_blank">
                         <button className="btn btn-outline btn-sm border-4 mt-6"> <span className='flex px-2'> <FaDownload className='mr-2' /> My Resume </span>  </button>
                     </a>
                     {/* social button */}

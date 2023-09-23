@@ -20,6 +20,10 @@ import psd17 from '../../images/psd/psd17.png';
 import psd18 from '../../images/psd/psd18.png';
 import psd19 from '../../images/psd/psd19.png';
 import psd20 from '../../images/psd/psd20.png';
+import psd21 from '../../images/psd/psd21.png';
+import psd22 from '../../images/psd/psd22.png';
+import psd23 from '../../images/psd/psd23.png';
+
 import { AiOutlineFundView } from 'react-icons/ai';
 
 
@@ -28,6 +32,51 @@ const PSDtoHTML = () => {
         <div className='mx-auto container' >
             {/* element */}
             <div className='grid lg:grid-cols-3 gap-8  md:grid-cols-2' >
+                    {/* 8th part */}
+                    <div >
+                        <div className="card cardStyle bg-base-100 shadow-2xl">
+                            {/* figure er jaygay carousel use korchi */}
+                            <figure> 
+                                <div className="carousel w-full">
+                                    {/* 1st slide */}
+                                    <div id="slide221" className="carousel-item relative w-full">
+                                        <img alt='projectImage' src={psd21} className="w-full" />
+                                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                        <a href="#slide223" className="btn btn-circle">❮</a> 
+                                        <a href="#slide222" className="btn btn-circle">❯</a>
+                                        </div>
+                                    </div> 
+                                    {/* 2nd slide */}
+                                    <div id="slide222" className="carousel-item relative w-full">
+                                        <img alt='projectImage' src={psd22} className="w-full" />
+                                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                        <a href="#slide221" className="btn btn-circle">❮</a> 
+                                        <a href="#slide223" className="btn btn-circle">❯</a>
+                                        </div>
+                                    </div> 
+                                    {/* 3rd slide */}
+                                    <div id="slide223" className="carousel-item relative w-full">
+                                        <img alt='projectImage' src={psd23} className="w-full" />
+                                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                        <a href="#slide222" className="btn btn-circle">❮</a> 
+                                        <a href="#slide221" className="btn btn-circle">❯</a>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </figure>
+                            <div className="card-body ">
+                                <h2 className="card-title"> Panda-Ecommerce </h2>
+                                <div className="card-actions justify-end">
+                                    <a href="https://sawom.github.io/WDPr6-Panda-Ecommerce/index.html"  target="_blank" >
+                                        <button className="btn btn-outline btn-sm border-4 mt-6">
+                                            <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     {/* 1st part */}
                     <div >
                         <div className="card cardStyle bg-base-100 shadow-2xl">
