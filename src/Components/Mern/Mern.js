@@ -8,15 +8,67 @@ import mern6 from '../../images/mern/arsTravels/mern6.png';
 import mern7 from '../../images/mern/arsTravels/mern7.png';
 import mern8 from '../../images/mern/arsTravels/mern8.png';
 import mern9 from '../../images/mern/arsTravels/mern9.png';
+
+import mern10 from '../../images/mern/arsTravels/mern10.png';
+import mern11 from '../../images/mern/arsTravels/mern11.png';
+import mern12 from '../../images/mern/arsTravels/mern12.png';
+
 import { AiOutlineFundView } from 'react-icons/ai';
 
 const Mern = () => {
     return (
 
-        <div className=''>
+        <div >
             <div className='mx-auto  container' >
                 {/* element */}
-                <div className='grid lg:grid-cols-3 gap-8  md:grid-cols-2' >
+                <div className='grid lg:grid-cols-2 gap-8  md:grid-cols-2 h-full' >
+
+                    {/* 1st */}
+                    <div >
+                        <div className="card cardStyle bg-base-100 shadow-2xl">
+                            {/* figure er jaygay carousel use korchi */}
+                            <figure> 
+                                <div className="carousel w-full">
+                                    {/* 1st slide */}
+                                    <div id="slide181" className="carousel-item relative w-full">
+                                        <img alt='projectImage' src={mern10} className="w-full" />
+                                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                        <a href="#slide183" className="btn btn-circle">❮</a> 
+                                        <a href="#slide182" className="btn btn-circle">❯</a>
+                                        </div>
+                                    </div> 
+                                    {/* 2nd slide */}
+                                    <div id="slide182" className="carousel-item relative w-full">
+                                        <img alt='projectImage' src={mern11} className="w-full" />
+                                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                        <a href="#slide181" className="btn btn-circle">❮</a> 
+                                        <a href="#slide183" className="btn btn-circle">❯</a>
+                                        </div>
+                                    </div> 
+                                    {/* 3rd slide */}
+                                    <div id="slide183" className="carousel-item relative w-full">
+                                        <img alt='projectImage' src={mern12} className="w-full" />
+                                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                        <a href="#slide182" className="btn btn-circle">❮</a> 
+                                        <a href="#slide181" className="btn btn-circle">❯</a>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </figure>
+                            <div className="card-body ">
+                                <h2 className="card-title">ARS-Restaurant</h2>
+                                <div className="card-actions justify-end">
+                                    <a href="https://653cfa6a9c2d710cfc654eca--ubiquitous-llama-8cf89b.netlify.app"  target="_blank" >
+                                        <button className="btn btn-outline btn-sm border-4 mt-6">
+                                            <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                     {/* 1st part */}
                     <div >
                         <div className="card cardStyle bg-base-100 shadow-2xl">
@@ -106,6 +158,7 @@ const Mern = () => {
                             </div>
                         </div>
                     </div>
+
                     {/* 3rd part*/}
                     <div  >
                         <div className="card cardStyle bg-base-100 shadow-2xl">
