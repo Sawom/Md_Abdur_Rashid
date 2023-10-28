@@ -56,7 +56,7 @@ const Mern = () => {
                                 </div>
                             </figure>
                             <div className="card-body ">
-                                <h2 className="card-title">ARS-Restaurant</h2>
+                                <h2 className="card-title">Laptop Land</h2>
                                 <div className="card-actions justify-end">
                                     <a href="https://653cfa6a9c2d710cfc654eca--ubiquitous-llama-8cf89b.netlify.app"  target="_blank" >
                                         <button className="btn btn-outline btn-sm border-4 mt-6">
@@ -69,7 +69,7 @@ const Mern = () => {
                     </div>
 
 
-                    {/* 1st part */}
+                    {/* 2nd part */}
                     <div >
                         <div className="card cardStyle bg-base-100 shadow-2xl">
                             {/* figure er jaygay carousel use korchi */}
