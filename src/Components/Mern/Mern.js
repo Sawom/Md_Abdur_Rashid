@@ -60,7 +60,7 @@ const Mern = () => {
                             <div className="card-body ">
                                 <h2 className="card-title">Bangladesh_Complaint_Portal</h2>
                                 <div className="card-actions ">
-                                    <a href="https://653cfa6a9c2d710cfc654eca--ubiquitous-llama-8cf89b.netlify.app"  target="_blank" >
+                                    <a href="https://gilded-brioche-c3f211.netlify.app/"  target="_blank" >
                                         <br />
                                         <p>
                                             <span className='font-bold'>Short Description: </span> 
@@ -115,7 +115,7 @@ const Mern = () => {
                             <div className="card-body ">
                                 <h2 className="card-title">Laptop Land</h2>
                                 <div className="card-actions ">
-                                    <a href="https://653cfa6a9c2d710cfc654eca--ubiquitous-llama-8cf89b.netlify.app"  target="_blank" >
+                                    <a href="https://ubiquitous-llama-8cf89b.netlify.app/"  target="_blank" >
                                         <br />
                                         <p>
                                             <span className='font-bold'>Short Description: </span> 
