@@ -87,7 +87,7 @@ const Mern = () => {
                             <figure> 
                                 <div className="carousel w-full">
                                     {/* 1st slide */}
-                                    <div id="slide181" className="carousel-item relative w-full">
+                                    <div id="slide981" className="carousel-item relative w-full">
                                         <img alt='projectImage' src={mern10} className="w-full" />
                                         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                         <a href="#slide983" className="btn btn-circle">❮</a> 
@@ -95,7 +95,7 @@ const Mern = () => {
                                         </div>
                                     </div> 
                                     {/* 2nd slide */}
-                                    <div id="slide182" className="carousel-item relative w-full">
+                                    <div id="slide982" className="carousel-item relative w-full">
                                         <img alt='projectImage' src={mern11} className="w-full" />
                                         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                         <a href="#slide981" className="btn btn-circle">❮</a> 
@@ -103,7 +103,7 @@ const Mern = () => {
                                         </div>
                                     </div> 
                                     {/* 3rd slide */}
-                                    <div id="slide183" className="carousel-item relative w-full">
+                                    <div id="slide983" className="carousel-item relative w-full">
                                         <img alt='projectImage' src={mern12} className="w-full" />
                                         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                         <a href="#slide982" className="btn btn-circle">❮</a> 
