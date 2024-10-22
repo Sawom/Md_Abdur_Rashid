@@ -11,7 +11,6 @@ const Education = () => {
                     <div className="card-body">
                         <h2 className="card-title ">University of Asia Pacific</h2>
                         <p className='roboto'>Bachelor of Science in Computer Science and Engineering </p> 
-                        <p className='roboto'> <span >CGPA:</span>  3.51 out of 4.00</p>
                         <p className='roboto'> <span> Passing year: </span> 2023 </p>
                     </div>
                 </div>
@@ -21,7 +20,6 @@ const Education = () => {
                         <h2 className="card-title">Dhaka College</h2>
                         <p> Higher Secondary School Certificate </p>
                         <p className='roboto'> <span>Group:</span> Science </p>
-                        <p className='roboto'> <span>GPA:</span> 5.00 out of 5.00 </p>
                         <p className='roboto'> <span> Passing year: </span> 2016 </p>
                     </div>
                 </div>
@@ -31,7 +29,6 @@ const Education = () => {
                         <h2 className="card-title">Motijheel Model High School and College</h2>
                         <p className='roboto'>Secondary School Certificate</p>
                         <p className='roboto'> <span>Group:</span> Science </p>
-                        <p className='roboto'> <span>GPA:</span> 5.00 out of 5.00 </p>
                         <p className='roboto'> <span> Passing year: </span> 2014 </p>
                     </div>
                 </div>

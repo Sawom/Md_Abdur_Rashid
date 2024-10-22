@@ -3,8 +3,9 @@ import { Link, Outlet } from 'react-router-dom';
 
 const Projects = () => {
     return (
-        <div id='project' className='container mt-10 mx-auto' >
-            <p className='text-center font-bold text-2xl' > Projects </p>
+        <div className='servicebackground'>
+            <div id='project' className='container  mx-auto ' >
+            <p className='text-center font-bold text-2xl ' > Projects </p>
             {/* nav */}
             <div className='navbar container mx-auto' >
                     {/* 1st */}
@@ -33,8 +34,11 @@ const Projects = () => {
                             <li> <Link to='/academic'  > <span className='linkStyle' > Academic </span>  </Link> </li>
                         </ul>
                     </div>
+                    
                 </div>  
             <Outlet></Outlet>
+            </div>
+            <br />
         </div>
     );
 };

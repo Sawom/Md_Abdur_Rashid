@@ -1,8 +1,8 @@
-import React, { useCallback } from 'react';
-import Me from '../../../images/cvpics.png'
-import './About.css';
+import React from 'react';
 import { FaDownload, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
-import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import Me from '../../../images/cvpics.png';
+import './About.css';
 
 const About = () => {
     const [text] = useTypewriter({
@@ -30,8 +30,8 @@ const About = () => {
                     <p className="p-4 roboto">
                         Motivated to use my skills in web application development. Proficient in MongoDB, Express.js,React, and Node.js, seeking an opportunity to contribute innovative coding skills and collaborative expertise to a development team.
                     </p>
-                    <a href="https://drive.google.com/drive/u/0/folders/1EoxHBHte1xHLZ8x0woOnCOlc5tlqb2Tr"  target="_blank">
-                        <button className="btn btn-outline btn-sm border-4 mt-6"> <span className='flex px-2'> <FaDownload className='mr-2' /> My Resume </span>  </button>
+                    <a href="https://drive.google.com/drive/folders/1tE9W_kbBbnvHOnLUQ4y4ZC0OFJYQiAWr?usp=sharing"  target="_blank">
+                        <button className="btn btn-outline btn-sm border-4 mt-6"> <span className='flex px-2'> <FaDownload className='mr-2' /> My Resume/CV </span>  </button>
                     </a>
                     {/* social button */}
                     <p className='mt-4 roboto' >Available for contact. Email: asawom250@gmail.com</p>

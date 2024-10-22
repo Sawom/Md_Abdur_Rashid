@@ -2,7 +2,7 @@ import React from 'react';
 
 const Extracurricular = () => {
     return (
-        <div className='aboutbackground mt-5'>
+        <div className='servicebackground '>
             <div className=' pt-10 container mx-auto' id='ext' >
             <p className='text-center font-bold text-2xl' > Extracurricular Activities </p>
             <div className="hero mt-5 px-3">
