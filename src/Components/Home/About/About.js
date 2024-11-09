@@ -29,8 +29,8 @@ const About = () => {
                         </span>
                         <Cursor></Cursor>
                     </p>
-                    <p className="p-4 roboto">
-                        Motivated to use my skills in web application development. Proficient in MongoDB, Express.js,React, and Node.js, seeking an opportunity to contribute innovative coding skills and collaborative expertise to a development team.
+                    <p className="my-3 roboto">
+                        Eager to apply my expertise in full-stack web development, particularly with the MERN stack: MongoDB, Express.js, React, and Node.js. I am driven to contribute creative problem-solving skills and effective teamwork to build dynamic, user-friendly web applications. Seeking a role that offers challenges and opportunities to develop impactful digital solutions while collaborating with a talented development team. Passionate about delivering efficient, scalable code and fostering a productive, innovative environment.
                     </p>
                     <a href="https://drive.google.com/drive/folders/1tE9W_kbBbnvHOnLUQ4y4ZC0OFJYQiAWr?usp=sharing"  target="_blank">
                         <button className="btn btn-outline btn-md border-4 mt-6 ">  <span className='flex px-2'>  My Resume/CV </span>  </button>
