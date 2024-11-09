@@ -5,7 +5,7 @@ const WhatIdo = () => {
         <div className='servicebackground pt-10'>
             <div className=' container mx-auto' id='todo' >
             <p className='text-center font-bold text-2xl' > My Services </p>
-            <div className='grid lg:grid-cols-3 gap-8  md:grid-cols-3' >
+            <div className='grid lg:grid-cols-3 gap-5  md:grid-cols-3' >
                 {/* 1st */}
                 <div className="card ">
                     <div className="card-body">

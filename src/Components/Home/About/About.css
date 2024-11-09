@@ -1,3 +1,8 @@
+.banner {
+  background: #badcdc;
+  box-shadow: inset 0px 261px 124px #ffffff;
+}
+
 .pStyle{
     text-align: justify;
     text-justify: ayto;

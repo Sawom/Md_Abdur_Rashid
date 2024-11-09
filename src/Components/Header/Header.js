@@ -1,12 +1,12 @@
 import React from 'react';
-import './Header.css';
-import { HashLink } from 'react-router-hash-link';
 import { FaGithub } from 'react-icons/fa';
+import { HashLink } from 'react-router-hash-link';
+import './Header.css';
 
 
 const Header = () => {
     return (
-         <div className=' bg-base-200 ' > 
+         <div className=' bg-base-200 shadow-md sticky top-0 z-50' > 
                 <div className='navbar container mx-auto' >
                     {/* 1st */}
                     <div className="navbar-start">
@@ -24,7 +24,7 @@ const Header = () => {
                             <li> <HashLink to='#ext' smooth > <span className='linkStyle' > Extracurricular </span>  </HashLink> </li>
                         </ul>
                         </div>
-                        <p className=" normal-case font-bold text-2xl">Md. Abdur Rashid</p>
+                        <p className=" normal-case font-bold text-xl">Md. Abdur Rashid</p>
                     </div>
                     {/* 2nd  */}
                     <div className="navbar-center hidden lg:flex">

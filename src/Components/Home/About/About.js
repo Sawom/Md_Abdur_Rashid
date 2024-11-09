@@ -10,14 +10,16 @@ const About = () => {
         loop: {}
     })
     return (
-        <div className='servicebackground'>
+        <div className='banner'>
             <div className='container  mx-auto' id='about' >
             {/* from daisy ui */}
            <div className="hero px-3 py-3">
                 <div className="hero-content  flex-col lg:flex-row md:flex-row">
+                    {/* 1st */}
                     <div style={{width: '50%'}} >
                         <img alt='my pics' src={Me} className="max-w-full h-auto rounded-lg " />
                     </div>
+                    {/* 2nd */}
                     <div style={{width: '50%'}} >
                     <h1 className="text-2xl font-bold">Md. Abdur Rashid</h1>
                     {/* auto typing text */}
@@ -31,7 +33,7 @@ const About = () => {
                         Motivated to use my skills in web application development. Proficient in MongoDB, Express.js,React, and Node.js, seeking an opportunity to contribute innovative coding skills and collaborative expertise to a development team.
                     </p>
                     <a href="https://drive.google.com/drive/folders/1tE9W_kbBbnvHOnLUQ4y4ZC0OFJYQiAWr?usp=sharing"  target="_blank">
-                        <button className="btn btn-outline btn-sm border-4 mt-6"> <span className='flex px-2'> <FaDownload className='mr-2' /> My Resume/CV </span>  </button>
+                        <button className="btn btn-outline btn-md border-4 mt-6 ">  <span className='flex px-2'>  My Resume/CV </span>  </button>
                     </a>
                     {/* social button */}
                     <p className='mt-4 roboto' >Available for contact. Email: asawom250@gmail.com</p>

@@ -23,7 +23,7 @@ const Mern = () => {
         <div >
             <div className='mx-auto  container' >
                 {/* element */}
-                <div className='grid lg:grid-cols-2 gap-8  md:grid-cols-2 h-full' >
+                <div className='grid lg:grid-cols-3 gap-5  md:grid-cols-3 h-full' >
 
                     {/* 1st */}
                     <div >
